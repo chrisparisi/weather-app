@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8f7c0055d2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Nostradamus</title>
+</head>
+<body>
+    
+    <div class="content">
+
+        <div id="header"><i class="fas fa-temperature-high"></i><h1>Nostradamus</h1></div>
+
+        <div id="search-city">
+            <input id="search" type="text" required placeholder="Enter City">
+            <button id="searchButton">Search</button>
+        </div>
+
+        <div id="card">
+            <h2 id="city"></h2>
+            <h1><span id="temperature"></span> <span>&#176;</span> F</h1>
+            <p>Feels like: <span id="feels-like"></span> <span>&#176;</span> F</p>
+            <p>Humidity: <span id="humidity"></span>%</p>
+            <p>Wind: <span id="wind">2</span> MPH</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
