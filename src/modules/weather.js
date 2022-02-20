@@ -1,3 +1,5 @@
+const dotenv = require("dotenv").config()
+
 const weather = (() => {    
     function convertData(initialData) {
         let name = initialData.name;
@@ -11,7 +13,7 @@ const weather = (() => {
     async function searchWeather(city) {
         try {
             console.log(city)
-            let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=9332a31235ed4543be73e2188939b796`, {mode: 'cors'});
+            let response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${process.env.APPID}`, {mode: 'cors'});
             let initialData = await response.json();
             let newData = convertData(initialData);
             console.log(newData)

@@ -1,94 +1,94 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
-    font-family: 'Roboto', sans-serif;
-    color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 .content {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    background-color: #264653;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #264653;
 }
 
 #header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
-    width: 100%;
-    background-color: #2a9d8f;
-    font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 98%;
+  background-color: #2a9d8f;
+  font-size: 2rem;
 }
 
 #search-city {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
 
 #card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    background-color: #e76f51;
-    border-radius: 10px;
-    padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-color: #e76f51;
+  border-radius: 10px;
+  padding: 15px;
 }
 
 button {
-    background-color: #2a9d8f;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.5rem;
-    margin: 15px;
-    border-radius: 15px;
+  background-color: #2a9d8f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 15px;
+  border-radius: 15px;
 }
 
 input {
-    text-align: center;
-    padding: 15px 32px;
-    font-size: 1.5rem;
-    color: black;
-    border: none;
-    border-radius: 5px;
+  text-align: center;
+  padding: 15px 32px;
+  font-size: 1.5rem;
+  color: black;
+  border: none;
+  border-radius: 5px;
 }
 
 input:focus {
-    outline: none;
+  outline: none;
 }
 
 label {
-    font-size: 1.5rem;
-    padding: 10px;
+  font-size: 1.5rem;
+  padding: 10px;
 }
 
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 h2 {
-    text-align: center;
-    font-size: 1.5rem;
-    color: #264653;
-    padding: 15px 32px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #264653;
+  padding: 15px 32px;
 }
 
 h1 {
-    text-align: center;
-    padding: 15px 32px;
+  text-align: center;
+  padding: 15px 32px;
 }
 
 p {
-    text-align: center;
-    padding: 5px;
+  text-align: center;
+  padding: 5px;
 }
